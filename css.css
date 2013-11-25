@@ -1,0 +1,147 @@
+div.n, div.flexmodul {
+    padding: 5px;
+}
+html * div.n {
+    height: 1%;
+}
+address {
+    font-style: normal;
+}
+.small {
+    font-size: 80%;
+}
+.caption {
+    font-size: 80%;
+}
+div#jimdobox {
+    background: none repeat scroll 0 0 #FFFFFF;
+    border: 1px solid #CCCCCC;
+    color: #333333;
+    font: 11px/140% Verdana,Geneva,Arial,Helvetica,sans-serif;
+    overflow: hidden;
+    padding: 5px;
+    text-align: left;
+    width: 170px;
+}
+div#jimdobox a, div#jimdobox a:visited, div#jimdobox a.jimdolink, div#jimdobox a.jimdolink:visited {
+    color: #0097DF;
+    outline: medium none;
+    text-decoration: underline;
+}
+div#jimdobox a:hover, div#jimdobox a.jimdolink:hover {
+    color: #0097DF;
+    text-decoration: none;
+}
+div#jimdobox img#jimdologo {
+    display: block;
+    margin: 3px 0 0 10px;
+}
+div#jimdobox img#kwclogo {
+    display: block;
+    margin: 20px 0 0 10px;
+}
+div#jimdobox span.title {
+    color: #4D4D4D;
+    margin: 3px 0 0 28px;
+}
+div#jimdobox select {
+    width: 160px;
+}
+div#jimdobox input {
+    margin-bottom: 2px;
+    width: 160px;
+}
+div#jimdobox hr {
+    background-color: #CCCCCC;
+    border: medium none #CCCCCC;
+    color: #CCCCCC;
+    height: 1px;
+}
+div#systemWorking {
+    padding-top: 2px;
+}
+ul#jimdobox-sites {
+    list-style: none outside none;
+    margin: 0;
+    padding: 5px 0 0;
+}
+ul#jimdobox-sites li {
+    display: inline;
+    margin: 0;
+    padding: 0;
+}
+ul#jimdobox-sites li a, ul#jimdobox-sites li a:visited {
+    background: none repeat scroll 0 0 #F1F1F1;
+    color: #0097DF;
+    display: block;
+    font: 11px/140% Verdana,Geneva,Arial,Helvetica,sans-serif;
+    margin-top: 1px;
+    padding: 2px;
+}
+ul#jimdobox-sites li a:hover {
+    background: none repeat scroll 0 0 #0097DF;
+    color: #FFFFFF;
+}
+.body {
+    background-attachment: fixed;
+    background-color: #000000;
+    background-image: url("http://u.jimdo.com/www66/o/sd507e35ccfcceea9/img/ic96eff8fd1928efd/1384573937/orig/image.png");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+div#cc-inner {
+}
+a.cc-shop-addtocard, a.cc-shop-addtocard:visited, a.cc-sidecart-checkout, a.cc-sidecart-checkout:visited, input.cc-checkout-btn {
+    background-color: #123D6D !important;
+    color: #F1F1F1 !important;
+    font-size: 11px !important;
+}
+a.cc-shop-addtocard:hover, a.cc-sidecart-checkout:hover, input.cc-checkout-btn:hover {
+    background-color: #0F2E53 !important;
+    color: #F1F1F1 !important;
+}
+a.cc-addtocard-disabled:hover {
+    background-color: #123D6D !important;
+}
+.cc-shop-price {
+    color: #990000 !important;
+    font-size: 18px !important;
+}
+.cc-shop-product-price-old {
+    color: #808080 !important;
+    font-size: 12px !important;
+}
+.cc-catalog-price-old {
+    color: #808080 !important;
+}
+div.cc-catalog-galleryview div.cc-webview-product-price strong, div.cc-catalog-listview div.cc-webview-product-price strong, div.cc-catalog-sliderview div.cc-webview-product-price strong {
+    color: #990000 !important;
+}
+div#cc-checkout-variant-1 a, div#cc-checkout-variant-1 div.cc-checkout-step1 div.cc-progress-step1, div#cc-checkout-variant-1 div.cc-checkout-step2 div.cc-progress-step1, div#cc-checkout-variant-1 div.cc-checkout-step2 div.cc-progress-step2, div#cc-checkout-variant-1 div.cc-checkout-step3 div.cc-progress-step1, div#cc-checkout-variant-1 div.cc-checkout-step3 div.cc-progress-step2, div#cc-checkout-variant-1 div.cc-checkout-step3 div.cc-progress-step3, div#cc-checkout-variant-1 div.cc-checkout-step4 div.cc-progress-step1, div#cc-checkout-variant-1 div.cc-checkout-step4 div.cc-progress-step2, div#cc-checkout-variant-1 div.cc-checkout-step4 div.cc-progress-step3, div#cc-checkout-variant-1 div.cc-checkout-step4 div.cc-progress-step4, div#cc-checkout-variant-4 a, div#cc-checkout-variant-4 div.cc-checkout-step1 div.cc-progress-step1 span, div#cc-checkout-variant-4 div.cc-checkout-step2 div.cc-progress-step1 span, div#cc-checkout-variant-4 div.cc-checkout-step2 div.cc-progress-step2 span, div#cc-checkout-variant-4 div.cc-checkout-step3 div.cc-progress-step1 span, div#cc-checkout-variant-4 div.cc-checkout-step3 div.cc-progress-step2 span, div#cc-checkout-variant-4 div.cc-checkout-step3 div.cc-progress-step3 span, div#cc-checkout-variant-4 div.cc-checkout-step4 div.cc-progress-step1 span, div#cc-checkout-variant-4 div.cc-checkout-step4 div.cc-progress-step2 span, div#cc-checkout-variant-4 div.cc-checkout-step4 div.cc-progress-step3 span, div#cc-checkout-variant-4 div.cc-checkout-step4 div.cc-progress-step4 span {
+    color: #000000 !important;
+}
+div#cc-checkout-variant-2 div.cc-checkout-step1 div.cc-progress-step1, div#cc-checkout-variant-2 div.cc-checkout-step2 div.cc-progress-step1, div#cc-checkout-variant-2 div.cc-checkout-step3 div.cc-progress-step1, div#cc-checkout-variant-2 div.cc-checkout-step4 div.cc-progress-step1, div#cc-checkout-variant-2 div.cc-checkout-step2 div.cc-progress-step2, div#cc-checkout-variant-2 div.cc-checkout-step3 div.cc-progress-step2, div#cc-checkout-variant-2 div.cc-checkout-step4 div.cc-progress-step2, div#cc-checkout-variant-2 div.cc-checkout-step3 div.cc-progress-step3, div#cc-checkout-variant-2 div.cc-checkout-step4 div.cc-progress-step3, div#cc-checkout-variant-2 div.cc-checkout-step4 div.cc-progress-step4, div#cc-checkout-variant-3 div.cc-checkout-step1 div.cc-progress-step1, div#cc-checkout-variant-3 div.cc-checkout-step2 div.cc-progress-step1, div#cc-checkout-variant-3 div.cc-checkout-step3 div.cc-progress-step1, div#cc-checkout-variant-3 div.cc-checkout-step4 div.cc-progress-step1, div#cc-checkout-variant-3 div.cc-checkout-step2 div.cc-progress-step2, div#cc-checkout-variant-3 div.cc-checkout-step3 div.cc-progress-step2, div#cc-checkout-variant-3 div.cc-checkout-step4 div.cc-progress-step2, div#cc-checkout-variant-3 div.cc-checkout-step3 div.cc-progress-step3, div#cc-checkout-variant-3 div.cc-checkout-step4 div.cc-progress-step3, div#cc-checkout-variant-3 div.cc-checkout-step4 div.cc-progress-step4 {
+    background-color: #000000 !important;
+}
+div.datetime.dt-style1, div.datetime.dt-style2, div.datetime.dt-style3, div.datetime.dt-style4, div.datetime.dt-style6 .datetime-inner {
+    background: none repeat scroll 0 0 #E9F7FF !important;
+}
+div.datetime.dt-style7 p.day, div.datetime.dt-style8 p.day, div.datetime.dt-style10 p {
+    color: #E9F7FF !important;
+}
+div.datetime.dt-style1 p, div.datetime.dt-style2 p, div.datetime.dt-style3 p, div.datetime.dt-style4 p, div.datetime.dt-style5 p, div.datetime.dt-style6 p, div.datetime.dt-style7 p, div.datetime.dt-style8 p {
+    color: #0099EE !important;
+}
+div.datetime.dt-style5, div.datetime.dt-style6 {
+    border-bottom: 1px solid #E9F7FF !important;
+}
+div.datetime.dt-style7.dt-alignment-left {
+    border-right: 1px solid #E9F7FF !important;
+}
+div.datetime.dt-style7.dt-alignment-right {
+    border-left: 1px solid #E9F7FF !important;
+}
+div.datetime.dt-style8 p.day {
+    border-right: 1px solid #0099EE !important;
+}

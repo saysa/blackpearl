@@ -172,7 +172,7 @@ ul.mainNav1 li a.current {
   color:#fff !important;
   text-decoration:none;
   background:url('http://u.jimdo.com/www66/o/layout/la18ca6249dc24447/img/menu.png') 0 -2px no-repeat;
-  background: #F90;
+  background: #A30E00;
 }
 
 ul.mainNav1 li a.current  {
@@ -201,6 +201,6 @@ ul.mainNav2 li a:hover,
 ul.mainNav3 li a:hover,
 ul.mainNav2 li a.current,
 ul.mainNav3 li a.current {
-  color:#A25755 !important;
+  color:#A30E00 !important;
   background:none;
 }

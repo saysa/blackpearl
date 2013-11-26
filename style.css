@@ -24,16 +24,17 @@ div#cc-tp-padding-container {
 
 
 div#cc-tp-container {
-  width:899px;
+  width:940px;
   margin:0 auto; 
   text-align:left;
 }
 
 
 div#cc-tp-header {
-  width:899px;
+  width:940px;
   margin:30px 0 26px 0;
   background:url(http://u.jimdo.com/www66/o/layout/l18102fdb581481be/img/header-bg.gif) no-repeat 0 0;
+  background: teal;
 }
 
 
@@ -42,15 +43,28 @@ div#cc-tp-header div.cc-tp-gutter { padding:25px; }
 /* the real left column */
 div#cc-tp-wrapper {
   float:left;
-  width: 150px;
-
+  width: 160px;
+  background: teal;
 }
 
 /* the only navigation */
 div#cc-tp-navigation div.cc-tp-gutter {
   padding:10px 20px 10px 20px;
   background:url(http://u.jimdo.com/www66/o/layout/l18102fdb581481be/img/side-bg.gif) repeat-y 0 0;
+  background: #FF7878;
+}
 
+/* div main content 1 */
+div#cc-tp-content {
+  float:right;
+  width:759px; /*  20 left + 709 content + 20 right + 10 bonus*/
+  background: #FF7878;
+}
+
+/* div main content 2 */
+div#cc-tp-content div.cc-tp-gutter { 
+  padding:10px 40px 30px 20px;
+  background:url(http://u.jimdo.com/www66/o/layout/l18102fdb581481be/img/content-bg.gif) repeat-y 0 0;
 }
 
 
@@ -66,6 +80,24 @@ div#cc-tp-nav-btm {
   height:19px;
   background:url(http://u.jimdo.com/www66/o/layout/l18102fdb581481be/img/side-bottom.gif) no-repeat left top;     
 }
+
+div#cc-tp-content-top {
+  width:100%;
+  height:19px;
+  background:url(http://u.jimdo.com/www66/o/layout/l18102fdb581481be/img/content-top.gif) no-repeat left top;
+}
+
+
+div#cc-tp-content-btm {
+  width:100%;
+  height:19px;
+  background:url(http://u.jimdo.com/www66/o/layout/l18102fdb581481be/img/content-bottom.gif) no-repeat left top;
+}
+
+
+
+
+
 
 
 div#cc-tp-sidebar { margin-top:20px; }
@@ -89,36 +121,6 @@ div#cc-tp-sidebar div.cc-tp-gutter {
   padding:10px 20px;
   background:url(http://u.jimdo.com/www66/o/layout/l18102fdb581481be/img/side-bg.gif) repeat-y 0 0;
 }
-
-
-div#cc-tp-content {
-  float:right;
-  width:746px;
-  background: #F9F9F9;
-}
-
-
-div#cc-tp-content-top {
-  width:100%;
-  height:19px;
-  background:url(http://u.jimdo.com/www66/o/layout/l18102fdb581481be/img/content-top.gif) no-repeat left top;
-}
-
-
-div#cc-tp-content-btm {
-  width:100%;
-  height:19px;
-  background:url(http://u.jimdo.com/www66/o/layout/l18102fdb581481be/img/content-bottom.gif) no-repeat left top;
-}
-
-
-div#cc-tp-content div.cc-tp-gutter { 
-  padding:10px 40px 30px 1px;
-  background:url(http://u.jimdo.com/www66/o/layout/l18102fdb581481be/img/content-bg.gif) repeat-y 0 0;
-}
-
-
-
 
 
 

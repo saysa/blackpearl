@@ -39,15 +39,18 @@ div#cc-tp-header {
 
 div#cc-tp-header div.cc-tp-gutter { padding:25px; }
 
-
+/* the real left column */
 div#cc-tp-wrapper {
   float:left;
-  width:238px;
+  width: 150px;
+
 }
 
+/* the only navigation */
 div#cc-tp-navigation div.cc-tp-gutter {
   padding:10px 20px 10px 20px;
   background:url(http://u.jimdo.com/www66/o/layout/l18102fdb581481be/img/side-bg.gif) repeat-y 0 0;
+
 }
 
 
@@ -90,7 +93,8 @@ div#cc-tp-sidebar div.cc-tp-gutter {
 
 div#cc-tp-content {
   float:right;
-  width:643px;
+  width:746px;
+  background: #F9F9F9;
 }
 
 
@@ -109,7 +113,7 @@ div#cc-tp-content-btm {
 
 
 div#cc-tp-content div.cc-tp-gutter { 
-  padding:10px 40px 30px 40px;
+  padding:10px 40px 30px 1px;
   background:url(http://u.jimdo.com/www66/o/layout/l18102fdb581481be/img/content-bg.gif) repeat-y 0 0;
 }
 
@@ -125,7 +129,7 @@ div#navigation {
   width:140px;
   font-family: "Hiragino Kaku Gothic Pro", "qMmpS Pro W3", Osaka, "lr oSVbN", sans-serif;
   line-height:100%;
-  padding:0 0 20px 0;
+  padding:0 0 10px 0;
   float:left;
 }
 
@@ -153,12 +157,13 @@ ul.mainNav1 li a:link,
 ul.mainNav1 li a:visited {
   display:block;
   font-weight:normal;
-  color:#333333;
+  color:#FFF;
   font-size:11px;
   text-decoration:none;
-  padding:6px 0 8px 5px;
+  padding:6px 0 5px 5px;
   margin:0 0 4px 0;
   background:url('http://u.jimdo.com/www66/o/layout/la18ca6249dc24447/img/menu.png') 0 -30px no-repeat;
+  background:black;
 }
 
 ul.mainNav1 li a:hover,
@@ -167,6 +172,7 @@ ul.mainNav1 li a.current {
   color:#fff !important;
   text-decoration:none;
   background:url('http://u.jimdo.com/www66/o/layout/la18ca6249dc24447/img/menu.png') 0 -2px no-repeat;
+  background: #F90;
 }
 
 ul.mainNav1 li a.current  {

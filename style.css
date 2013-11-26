@@ -119,9 +119,15 @@ div#cc-tp-content div.cc-tp-gutter {
 
 
 
-/*  Navigation
+/*  NAVIGATION
 ----------------------------------------------- */
-
+div#navigation {
+  width:140px;
+  font-family: "Hiragino Kaku Gothic Pro", "qMmpS Pro W3", Osaka, "lr oSVbN", sans-serif;
+  line-height:100%;
+  padding:0 0 20px 0;
+  float:left;
+}
 
 ul.mainNav1,
 ul.mainNav2,
@@ -129,8 +135,8 @@ ul.mainNav3 {
   text-align:left;
   margin:0;
   padding:0;
+  list-style:none;
 }
-
 
 ul.mainNav1 li,
 ul.mainNav2 li,
@@ -138,38 +144,57 @@ ul.mainNav3 li {
   display:inline;
   margin:0; 
   padding:0;
+  list-style:none;
 }
 
 
-ul.mainNav1 li a, ul.mainNav1 li a:visited,
-ul.mainNav2 li a, ul.mainNav2 li a:visited,
-ul.mainNav3 li a, ul.mainNav3 li a:visited {
+ul.mainNav1 li a,
+ul.mainNav1 li a:link,
+ul.mainNav1 li a:visited {
   display:block;
-  border-bottom:1px solid #CCC;
+  font-weight:normal;
+  color:#333333;
+  font-size:11px;
   text-decoration:none;
-  color:#333;
+  padding:6px 0 8px 5px;
+  margin:0 0 4px 0;
+  background:url('http://u.jimdo.com/www66/o/layout/la18ca6249dc24447/img/menu.png') 0 -30px no-repeat;
 }
-
-
-ul.mainNav1 li a, ul.mainNav1 li a:visited { padding:5px 4px 5px 15px; }
-ul.mainNav2 li a, ul.mainNav2 li a:visited { padding:4px 3px 4px 23px; }
-ul.mainNav3 li a, ul.mainNav3 li a:visited { padding:4px 3px 4px 31px; }
-
 
 ul.mainNav1 li a:hover,
-ul.mainNav2 li a:hover,
-ul.mainNav3 li a:hover {
-  background:#EEE;
-  color:black;
+ul.mainNav1 li a:active,
+ul.mainNav1 li a.current {
+  color:#fff !important;
+  text-decoration:none;
+  background:url('http://u.jimdo.com/www66/o/layout/la18ca6249dc24447/img/menu.png') 0 -2px no-repeat;
 }
 
-
-ul.mainNav1 li a.current, ul.mainNav1 li a.current:visited,
-ul.mainNav1 li a.parent,  ul.mainNav1 li a.parent:visited,
-ul.mainNav2 li a.current, ul.mainNav2 li a.current:visited,
-ul.mainNav2 li a.parent,  ul.mainNav2 li a.parent:visited,
-ul.mainNav3 li a.current, ul.mainNav3 li a.current:visited { 
-  background:#EEE;
-  color:black;
+ul.mainNav1 li a.current  {
   font-weight:bold;
+}
+
+ul.mainNav2 li a,
+ul.mainNav2 li a:link,
+ul.mainNav2 li a:visited,
+ul.mainNav3 li a,
+ul.mainNav3 li a:link,
+ul.mainNav3 li a:visited {
+  font-weight:normal;
+  font-size:11px;
+  background:none;
+  color:#333333;
+}
+
+ul.mainNav3 li a,
+ul.mainNav3 li a:link,
+ul.mainNav3 li a:visited {
+  padding-left:10px;
+}
+
+ul.mainNav2 li a:hover,
+ul.mainNav3 li a:hover,
+ul.mainNav2 li a.current,
+ul.mainNav3 li a.current {
+  color:#A25755 !important;
+  background:none;
 }

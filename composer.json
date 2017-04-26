@@ -1,4 +1,8 @@
 {
     "name": "conamed/blackpearl",
-    "description": "A test package for satis"
+    "description": "A test package for satis",
+    "type": "wordpress-theme",
+    "require": {
+        "composer/installers": "~1.0"
+    }
 }
